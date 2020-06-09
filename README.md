@@ -25,6 +25,14 @@ conda activate mimosa
 ... ...
 
 
+## run demo 
+... ... 
+
+
+
+
+... ... 
+
 
 conda deactivate 
 ## Exit conda environment 
@@ -33,12 +41,12 @@ conda deactivate
 
 
 
-## Relevance
+## Related Projects
 
 This repository relies on following repositories: 
 * [VJTNN](https://github.com/wengong-jin/iclr19-graph2graph) (Graph-to-Graph Translation, ICLR 19) 
-* 
-* 
+* [Pretrain GNN](https://github.com/snap-stanford/pretrain-gnns) (Strategies for Pre-training Graph Neural Networks, ICLR 20)
+
 
 
 
