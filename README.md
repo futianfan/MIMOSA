@@ -19,8 +19,42 @@ conda activate mimosa
 ## run our code
 ... ...
 
+
+
+
+... ...
+
+
+
 conda deactivate 
 ## Exit conda environment 
 
 ```
+
+
+
+## Relevance
+
+This repository relies on following repositories: 
+* [VJTNN](https://github.com/wengong-jin/iclr19-graph2graph) (Graph-to-Graph Translation, ICLR 19) 
+* 
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
