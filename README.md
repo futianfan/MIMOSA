@@ -16,8 +16,11 @@ conda activate mimosa
 ## Activate conda environment (use "source activate mimosa" for anaconda 4.4 or earlier) 
 
 
-## run our code
-... ...
+## pretrain mGNN   -> the trained model is saved at ./trained_model
+python pretrain_mGNN.py 
+
+## pretrain bGNN   -> the trained model is saved at ./trained_model 
+python pretrain_mGNN.py 
 
 
 
@@ -26,7 +29,7 @@ conda activate mimosa
 
 
 ## run demo 
-... ... 
+
 
 
 
@@ -48,9 +51,26 @@ This repository relies on following repositories:
 * [Pretrain GNN](https://github.com/snap-stanford/pretrain-gnns) (Strategies for Pre-training Graph Neural Networks, ICLR 20)
 
 
+## Dataset
+
+### pretraining data: property-agnostic
+
+* ./dataset/zinc_standard_agent: 4.5G; publicly available at http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip  
+
+
+### test: QED & PLogP
+
+
+### test: DRD & PLogP
 
 
 
+
+## Util File 
+
+* ./trained_model/   directory to save the pretrained model 
+* pretrain_mGNN.py  (pretrain_masking.py)
+* 
 
 
 
