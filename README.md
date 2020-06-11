@@ -23,18 +23,15 @@ python pretrain_mGNN.py
 python pretrain_mGNN.py 
 
 
+###### Evaluation code ######
+## jointly optimize DRD and PLogP 
+python test_drd_logp.py
 
-
-... ...
-
-
-## run demo 
-
-
+## jointly optimize QED and PLogP 
+python test_qed_logp.py
 
 
 
-... ... 
 
 
 conda deactivate 
@@ -55,13 +52,7 @@ This repository relies on following repositories:
 
 ### pretraining data: property-agnostic
 
-* ./dataset/zinc_standard_agent: 4.5G; publicly available at http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip  
-
-
-### test: QED & PLogP
-
-
-### test: DRD & PLogP
+* ./dataset/zinc_standard_agent: not uploaded(4.5G); publicly available at http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip  
 
 
 
@@ -70,7 +61,13 @@ This repository relies on following repositories:
 
 * ./trained_model/   directory to save the pretrained model 
 * pretrain_mGNN.py  (pretrain_masking.py)
-* 
+* test_qed_logp.py  jointly optimize QED and PLogP 
+* test_drd_logp.py  jointly optimize DRD and PLogP  
+* props   not uploaded because the size is too large. 
+
+
+
+
 
 
 
