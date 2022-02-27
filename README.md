@@ -112,15 +112,13 @@ python src/train.py
   - `gnn_loss.pkl`: the valid loss. 
 
 
-## Inference 
+## Run 
 
 ### de novo molecule design 
 
 ```bash
-python src/run.py $prop $num_oracle
+python src/run.py
 ```
-- `prop` represent the property to optimize, including `qed`, `logp`, `jnk`, `gsk`, `jnkgsk`, `qedsajnkgsk`. 
-- `num_oracle` is budget of oracle calls. 
 - input 
   - `save_model/GNN.ckpt`: pretrained GNN model. 
 - output 
@@ -128,7 +126,7 @@ python src/run.py $prop $num_oracle
 
 For example, 
 ```bash 
-python src/run.py jnkgsk 5000 
+python src/run.py
 ```
 
 ### evaluate 
@@ -145,8 +143,6 @@ For example,
 ```bash 
 python src/evaluate.py jnkgsk 
 ```
-
-
 
 
 ## Contact 
