@@ -22,7 +22,7 @@ This repository hosts MIMOSA: Multi-constraint Molecule Sampling for Molecule Op
 
 
 <a name="installation"></a>
-## 1. Installation 
+## ⚙️ 1. Installation 
 
 To install locally, we recommend to install from `pip` and `conda`. Please see `conda.yml` for the package dependency. 
 ```bash
