@@ -2,6 +2,7 @@
 
 This repository hosts MIMOSA: Multi-constraint Molecule Sampling for Molecule Optimization (AAAI) 2021 (Tianfan Fu, Cao Xiao, Xinhao Li, Lucas Glass, Jimeng Sun), which used pretrained graph neural network (GNN) and MCMC for molecule optimization. 
 
+![pipeline](MIMOSA.png)
 
 
 ## Table Of Contents
