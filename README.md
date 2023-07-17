@@ -1,5 +1,12 @@
 # 💊 MIMOSA: Multi-constraint Molecule Sampling for Molecule Optimization
 
+[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
+[![GitHub Repo stars](https://img.shields.io/github/stars/mims-harvard/TDC)](https://github.com/futianfan/MIMOSA/stargazers)
+[![GitHub Repo stars](https://img.shields.io/github/forks/mims-harvard/TDC)](https://github.com/futianfan/MIMOSA/network/members)
+
+
+
 This repository hosts MIMOSA: Multi-constraint Molecule Sampling for Molecule Optimization (AAAI) 2021 (Tianfan Fu, Cao Xiao, Xinhao Li, Lucas Glass, Jimeng Sun), which used pretrained graph neural network (GNN) and MCMC for molecule optimization. 
 
 ![pipeline](MIMOSA.png)
