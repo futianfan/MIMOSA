@@ -7,21 +7,14 @@ This repository hosts MIMOSA: Multi-constraint Molecule Sampling for Molecule Op
 
 ## Table Of Contents
 
-- Installation 
-- Data and Setup
-  - raw data 
-  - oracle
-  - optimization task 
-  - generate vocabulary 
-  - data cleaning  
-- Pretrain graph neural network (GNN)
-- Inference
-  - de novo molecule design 
-  - evaluate  
-- Contact 
+- [Installation](#installation) 
+- [Data](#data)
+- [Pretraining](#pretrain)
+- [Run](#run) 
+- [Contact](#contact) 
 
 
-
+<a name="installation"></a>
 ## 1. Installation 
 
 To install locally, we recommend to install from `pip` and `conda`. Please see `conda.yml` for the package dependency. 
@@ -43,8 +36,8 @@ make directory
 mkdir -p save_model result 
 ```
 
-
-## 2. Data and Setup
+<a name="data"></a>
+## 2. Data
 In our setup, we restrict the number of oracle calls. In realistic discovery settings, the oracle acquisition cost is usually not negligible. 
 
 ### Raw Data 
@@ -100,7 +93,7 @@ python src/clean.py
 
 
 
-
+<a name="pretrain"></a>
 ## Pre-train graph neural network (GNN)
 ```bash 
 python src/train.py 
@@ -112,7 +105,7 @@ python src/train.py
 - log
   - `gnn_loss.pkl`: the valid loss. 
 
-
+<a name="run"></a>
 ## Run 
 
 ### de novo molecule design 
@@ -145,7 +138,7 @@ For example,
 python src/evaluate.py jnkgsk 
 ```
 
-
+<a name="contact"></a>
 ## Contact 
 Please contact futianfan@gmail.com for help or submit an issue. 
 
