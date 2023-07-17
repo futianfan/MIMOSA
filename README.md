@@ -113,7 +113,7 @@ python src/train.py
   - `gnn_loss.pkl`: the valid loss. 
 
 <a name="run"></a>
-## Run 
+## 🤖 Run 
 
 ### de novo molecule design 
 
