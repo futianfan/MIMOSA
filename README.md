@@ -146,7 +146,7 @@ python src/evaluate.py jnkgsk
 ```
 
 <a name="contact"></a>
-## Contact 
+## 📞 Contact 
 Please contact futianfan@gmail.com for help or submit an issue. 
 
 
